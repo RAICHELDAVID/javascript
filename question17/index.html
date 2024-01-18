@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Question17</title>
+      <link rel="stylesheet" href="style.css">
+   </head>
+   <body>
+      <div class="mainDiv">
+	<h3>Marks Eligibility</h3>
+	<form>
+ Enter marks obtained in Maths-<input type="text" id="mathsMark" name="mathsMark"><br><br>
+  Enter marks obtained in Physics-<input type="text" id="physicsMark" name="physicsMark"><br><br>
+  Enter marks obtained in Chemistry-<input type="text" id="chemistryMark" name="chemistryMark">
+<button type="button" onclick="sumFunction()">Sum</button><br><br>
+Total in all three subject-<input type="text" id="totalOfMathsPhysicsChemistry" name="totalOfMathsPhysicsChemistry"><br><br>
+Total in Maths and Physics-<input type="text" id="totalOfMathsPhysics" name="totalOfMathsPhysics"><br><br>
+</form>
+<div class="resultDiv">
+<button type="button" onclick="eligibilityFunction()">Is Eligible</button><BR><BR>
+<p id="isEligible"></p>
+
+</div>
+ </div>
+      <script src="script.js"></script>
+   </body>
