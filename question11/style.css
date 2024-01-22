@@ -1,0 +1,29 @@
+body {
+	background-color: wheat;
+}
+
+.resultRow{
+display:flex;
+}
+.avgColumn{
+display:flex;
+flex-direction:column;
+}
+button {
+	border: 1px solid black;
+	border-radius: 6px;
+	background-color: blue;
+	color: white;
+}
+.mainDiv{
+ text-align:center;
+}
+.resultDiv{
+ text-align:center;
+padding-top:11px;
+}
+.resultDiv div{
+display:flex;
+ text-align:center;
+margin-left:608px;
+}
