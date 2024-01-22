@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Question72</title>
+      <link rel="stylesheet" href="style.css">
+   </head>
+   <body>
+      <div class="mainDiv">
+	<h3>MISSING LETTER FINDING</h3>
+	<form>
+ Enter a string:<input type="text" id="string" name="string" onkeypress="return (event.charCode > 64 && 
+        event.charCode < 91) || (event.charCode > 96 && event.charCode < 123)">
+
+<br><br>
+<button type="button" onclick="missingLetterFunction()">PRINT</button></br></BR>
+missing letter is=<input id="displayText">
+</form>
+
+ </div>
+      <script src="script.js"></script>
+   </body>

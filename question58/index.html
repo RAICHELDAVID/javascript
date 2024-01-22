@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Question58</title>
+      <link rel="stylesheet" href="style.css">
+   </head>
+   <body>
+      <div class="mainDiv">
+	<h3>RETRIVE MIDDLE CHARACTER IN A STRING</h3>
+	<form>
+ Enter the first string:
+  <input type="text" id="stringOne" onkeypress="return (event.charCode>64&&event.charCode<91)||(event.charCode>96&&event.charCode<123)">
+
+
+</form>
+<div class="resultDiv">
+<button type="button" onclick="middleCharStringFunction()">PRINT</button><br><br>
+<div><p>MIDDLE CHARACTER =<input id="displayResult"></p><br>
+</div>
+</div>
+ </div>
+      <script src="script.js"></script>
+   </body>
