@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Question3</title>
+      <link rel="stylesheet" href="style.css">
+   </head>
+   <body>
+      <div class="mainDiv">
+         <h3>Sum and Average of three numbers</h3>
+         <form>
+            <label for="num1">First number:</label>
+            <input type="text" id="num1" name="num1" onkeypress="return (event.charCode >47 && 
+        	event.charCode < 59)">
+            <label for="num2">Second number:</label>
+            <input type="text" id="num2" name="num2" onkeypress="return (event.charCode >47 && 
+        	event.charCode < 59)">
+            <label for="num3">Third number:</label>
+            <input type="text" id="num3" name="num3" onkeypress="return (event.charCode >47 && 
+        	event.charCode < 59)">
+         </form>
+         <div class="resultDiv">
+            <button type="button" onclick="addFunction()">RESULT</button>
+            <p>Sum = <span id="sumresult"></span></p>
+            <p>Average = <span id="avgresult"></span></p>
+         </div>
+      </div>
+      <script src="script.js"></script>
+   </body>

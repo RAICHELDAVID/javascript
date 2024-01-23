@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Question67</title>
+      <link rel="stylesheet" href="style.css">
+   </head>
+   <body>
+      <div class="mainDiv">
+         <h3>count the alphabets,numbers and special characters</h3>
+         <form>
+            Enter a string:<input type="text" id="string" name="string" onkeypress="return (event.charCode > 31 && 
+               event.charCode < 48) || (event.charCode > 96 && event.charCode < 123)||(event.charCode > 48 && event.charCode < 57)">
+            <br><br>
+            <button type="button" onclick="charOccurenceFunction()">PRINT</button><br><br>
+            alphabets count=<input type="text" id="displayResult1">
+            number count=<input type="text" id="displayResult2">
+            special character count=<input type="text" id="displayResult3">
+         </form>
+      </div>
+      <script src="script.js"></script>
+   </body>

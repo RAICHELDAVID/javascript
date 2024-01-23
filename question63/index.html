@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Question63</title>
+      <link rel="stylesheet" href="style.css">
+   </head>
+   <body>
+      <div class="mainDiv">
+         <h3>specified substring in the prefix</h3>
+         <form>
+            Enter a string:<input type="text" id="string" name="string" onkeypress="return (event.charCode > 96 && event.charCode < 123)||(event.charCode > 64 && event.charCode < 90)">
+            Enter the substring:<input type="text" id="subString" name="subString" onkeypress="return (event.charCode > 96 && event.charCode < 123)||(event.charCode > 64 && event.charCode < 90)">
+            <br><br>
+            <button type="button" onclick="prefixFunction()">PRINT</button><br><br>
+            <p  id="displayResult"></p>
+         </form>
+      </div>
+      <script src="script.js"></script>
+   </body>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Question54</title>
+      <link rel="stylesheet" href="style.css">
+   </head>
+   <body>
+      <div class="mainDiv">
+         <h3>concate two string(method)</h3>
+         <form>
+            Enter the first string:
+            <input type="text" id="stringOne" onkeypress="return (event.charCode>64&&event.charCode<91)||(event.charCode>96&&event.charCode<123)">
+            Enter the second string:
+            <input type="text" id="stringTwo" onkeypress="return (event.charCode>64&&event.charCode<91)||(event.charCode>96&&event.charCode<123)">
+         </form>
+         <div class="resultDiv">
+            <button type="button" onclick="concateStringFunction()">PRINT</button><br><br>
+            <div>
+               <p>CONCATENATED STRING =<input id="displayResult"></p>
+               <br>
+            </div>
+         </div>
+      </div>
+      <script src="script.js"></script>
+   </body>

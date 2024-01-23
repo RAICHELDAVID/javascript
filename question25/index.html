@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Question25</title>
+      <link rel="stylesheet" href="style.css">
+   </head>
+   <body>
+      <div class="mainDiv">
+         <h3>smallest and largest of three numbers</h3>
+         <form>
+            <div>
+               Enter a digit :<input type="text" id="num" name="num" onkeypress="return (event.charCode >47 && event.charCode < 59)">
+            </div>
+            <div>
+               <button type="button" onclick="firstAndLastFunction()">FIND</button><br>
+            </div>
+            <div>
+               First Number is : <input type="text" id="firstNumber" name="firstNumber"><br>
+            </div>
+            <div>
+               Last Number is : <input type="text" id="lastNumber" name="lastNumber">
+            </div>
+         </form>
+      </div>
+      <script src="script.js"></script>
+   </body>
