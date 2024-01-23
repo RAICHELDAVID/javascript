@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Question61</title>
+      <link rel="stylesheet" href="style.css">
+   </head>
+   <body>
+      <div class="mainDiv">
+         <h3>INDEX PRINTING</h3>
+         <form>
+            Enter the first string :
+            <input type="text" id="string" onkeypress="return (event.charCode>64&&event.charCode<91)||(event.charCode>96&&event.charCode<123)">
+            Enter the character :
+            <input type="text" id="char" onkeypress="return (event.charCode>64&&event.charCode<91)||(event.charCode>96&&event.charCode<123)">
+         </form>
+         <div class="resultDiv">
+            <button type="button" onclick="indexFindingFunction()">PRINT</button><br><br>
+            <div>
+               <p>THE INDEX =<input id="displayResult"></p>
+               <br>
+            </div>
+         </div>
+      </div>
+      <script src="script.js"></script>
+   </body>

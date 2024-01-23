@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Question62</title>
+      <link rel="stylesheet" href="style.css">
+   </head>
+   <body>
+      <div class="mainDiv">
+         <h3>occurence of given character in a string</h3>
+         <form>
+            Enter a string:<input type="text" id="string" name="string" onkeypress="return (event.charCode > 64 && 
+               event.charCode < 91) || (event.charCode > 96 && event.charCode < 123||event.charCode==32)">
+            Enter a character:<input type="text" id="stringChar" name="stringChar" onkeypress="return (event.charCode > 64 && 
+               event.charCode < 91) || (event.charCode > 96 && event.charCode < 123)">
+            <br><br>
+            <button type="button" onclick="charOccurenceFunction()">PRINT</button><br><br>
+            RESULT=<input type="text" id="displayResult">
+         </form>
+      </div>
+      <script src="script.js"></script>
+   </body>

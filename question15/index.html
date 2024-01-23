@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Question15</title>
+      <link rel="stylesheet" href="style.css">
+   </head>
+   <body>
+      <div class="mainDiv">
+         <h3>smallest and largest of three numbers</h3>
+         <form>
+	   <div>
+            Enter first number :<input type="text" id="fNum" name="fNum" onkeypress="return (event.charCode >47 && 
+        	event.charCode < 59)">
+            Enter second number :<input type="text" id="sNum" name="sNum" onkeypress="return (event.charCode >47 && 
+        	event.charCode < 59)">
+            Enter third number :<input type="text" id="tNum" name="tNum" onkeypress="return (event.charCode >47 && 
+        	event.charCode < 59)">
+	   </div>
+           <div>
+            <button type="button" onclick="largestAndSmallestFunction()">FIND</button></br>
+	   </div>
+	   <div>
+            Largest Number among three numbers is: <input type="text" id="largestNumber" name="largestNumber"><br>
+	   </div>
+	   <div>
+            Smallest Number among three numbers is: <input type="text" id="smallestNumber" name="smallestNumber">
+	   </div>
+         </form>
+      </div>
+      <script src="script.js"></script>
+   </body>

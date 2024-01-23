@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Question67</title>
+      <link rel="stylesheet" href="style.css">
+   </head>
+   <body>
+      <div class="mainDiv">
+         <h3>count the vowels and consonents</h3>
+         <form>
+            Enter a string:<input type="text" id="string" name="string" onkeypress="return (event.charCode > 64 && 
+               event.charCode < 91) || (event.charCode > 96 && event.charCode < 123)">
+            <br><br>
+            <button type="button" onclick="vowelConsonentFunction()">PRINT</button><br><br>
+            vowels count=<input type="text" id="displayResult1">
+            consonent count=<input type="text" id="displayResult2">
+         </form>
+      </div>
+      <script src="script.js"></script>
+   </body>

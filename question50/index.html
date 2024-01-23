@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Question50</title>
+      <link rel="stylesheet" href="style.css">
+   </head>
+   <body>
+      <div class="mainDiv">
+	<h3>menu based arithmetic operation</h3>
+	<form id="myForm">
+ Enter the first number :<input type="text" id="num1" name="num">
+<br><br>
+ Enter the second number :<input type="text" id="num2" name="num">
+<br><br>
+ choose menu :<input type="text" id="num3" maxlength="1" name="num"  onkeypress="return (event.charCode==49 || 
+        event.charCode==50||event.charCode==51||event.charCode==52||event.charCode==53)">
+<br><br>
+<button type="button" onclick="arithmeticFunction()">Calculate</button></br></BR>
+Result=<input type="text" id="resultValue">
+</form>
+
+ </div>
+      <script src="script.js"></script>
+   </body>
