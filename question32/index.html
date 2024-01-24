@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Question32</title>
+      <link rel="stylesheet" href="style.css">
+   </head>
+   <body>
+      <div class="mainDiv">
+         <h3>String palindrome checking</h3>
+         <form>
+            Enter a word:
+            <input type="text" id="string" name="string" onkeypress="return (event.charCode > 64 && 
+               event.charCode < 91) || (event.charCode > 96 && event.charCode < 123)">
+         </form>
+         <div class="resultDiv">
+            <button type="button" onclick="stringPalindromeFunction()">CHECK</button>
+            <div>
+               <p id="displayText"></p>
+            </div>
+         </div>
+      </div>
+      <script src="script.js"></script>
+   </body>

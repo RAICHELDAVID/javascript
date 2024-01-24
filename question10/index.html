@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Question10</title>
+      <link rel="stylesheet" href="style.css">
+   </head>
+   <body>
+      <div class="mainDiv">
+         <h3>Leap Year/Not</h3>
+         <form>
+            <label for="year">Enter a year :</label><br>
+            <input type="text" id="year" name="year" onkeypress="return (event.charCode >47 && 
+        event.charCode < 59)"><br>
+         </form>
+         <div class="resultDiv">
+            <button type="button" onclick="leapYearFunction()">Find</button>
+            <div>
+               <p id="leapYearCalculator"></p>
+            </div>
+         </div>
+      </div>
+      <script src="script.js"></script>
+   </body>

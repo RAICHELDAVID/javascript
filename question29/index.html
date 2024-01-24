@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Question29</title>
+      <link rel="stylesheet" href="style.css">
+   </head>
+   <body>
+      <div class="mainDiv">
+         <h3>Number divisible by 5 and 11 within a range</h3>
+         <form>
+            Enter the value for n:
+            <input type="text" id="num" name="num" onkeypress="return (event.charCode >47 && event.charCode < 59)">
+         </form>
+         <div class="resultDiv">
+            <button type="button" onclick="divisibleFunction()">PRINT</button>
+            <div>
+               <p id="displayText"></p>
+               <p id="divisiblePrintingCalculator"></p>
+            </div>
+         </div>
+      </div>
+      <script src="script.js"></script>
+   </body>

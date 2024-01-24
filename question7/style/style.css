@@ -1,0 +1,28 @@
+body {
+	background-color: wheat;
+}
+
+
+.arithmeticButton{
+display:flex;
+}
+.resultDiv{
+display:flex;
+padding-top:11px;
+padding-right:5px;
+}
+.resultDiv button{
+   height: 45px;
+    width: auto; 
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+    border: 1px solid white;
+    font-size: 20px;
+    transition: all .5s;
+    padding: 0px 10px;
+BORDER-RADIUS:10PX;
+}
+.last{
+display:flex;
+}

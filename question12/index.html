@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Question12</title>
+      <link rel="stylesheet" href="style.css">
+   </head>
+   <body>
+      <div class="mainDiv">
+         <h3>Power of a number</h3>
+         <form>
+	 <div>
+            Enter the base value :<input type="text" id="baseValue" name="baseValue" onkeypress="return (event.charCode >47 && 
+        	event.charCode < 59)">
+            Enter the exponent value :<input type="text" id="exponentValue" name="exponentValue" onkeypress="return (event.charCode >47 && 
+        	event.charCode < 59)">
+          </div>
+	  <div>
+            <button type="button" onclick="powerFunction()">Find</button><br>
+	  </div>
+            Power = <input type="text" id="resultValue">
+         </form>
+      </div>
+      <script src="script.js"></script>
+   </body>
