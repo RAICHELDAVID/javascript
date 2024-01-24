@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Question37</title>
+      <link rel="stylesheet" href="style.css">
+   </head>
+   <body>
+      <div class="mainDiv">
+         <h3>sum of Even numbers</h3>
+         <form>
+            Enter the value for n
+            <input type="text" id="num" name="num" onkeypress="return (event.charCode >47 && 
+               event.charCode < 59)">
+         </form>
+         <div class="resultDiv">
+            <button type="button" onclick="evenNumFunction()">PRINT</button>
+            <div>
+               <p id="displayText">SUM OF EVEN NUMBERS = <input id="displayResult"></p>
+            </div>
+         </div>
+      </div>
+      <script src="script.js"></script>
+   </body>

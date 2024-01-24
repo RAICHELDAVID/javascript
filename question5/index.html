@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Question5</title>
+      <link rel="stylesheet" href="./style/style.css">
+   </head>
+   <body>
+      <div class="mainDiv">
+         <h3>Compound interest</h3>
+         <form>
+            <label for="pAmount">Principal Amount:</label>
+            <input type="text" id="pAmount" name="pAmount" onkeypress="return (event.charCode >47 && 
+        	event.charCode < 59)">
+            <label for="rateOfInterest">Rate of Interest:</label>
+            <input type="text" id="rateOfInterest" name="rateOfInterest" onkeypress="return (event.charCode >47 && 
+        	event.charCode < 59)">
+            <label for="timePeriod">Time Period:</label>
+            <input type="text" id="timePeriod" name="timePeriod" onkeypress="return (event.charCode >47 && 
+        	event.charCode < 59)">
+         </form>
+         <div class="resultDiv">
+            <button type="button" onclick="interestFunction()">Compound Interest Calculator</button>
+            <div>
+               <p id="displayText"></p>
+               <p id="compoundInterestCalculator"></p>
+            </div>
+         </div>
+      </div>
+      <script src="./script/script.js"></script>
+   </body>
+</html>

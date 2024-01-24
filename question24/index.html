@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Question24</title>
+      <link rel="stylesheet" href="style.css">
+   </head>
+   <body>
+      <div class="mainDiv">
+      <h3>Factorial of a number</h3>
+      Enter a number:<input id="num" onkeypress="return (event.charCode >47 && event.charCode < 59)">
+      <div class="resultDiv">
+         <button type="button" onclick="factorialFunction()">FACTORIAL</button><br><br>
+         <div class="displayResult">
+            <p id="displayResult"></p>
+            <p id="factorialCalculator"></p>
+         </div>
+      </div>
+      </div>
+      <script src="script.js"></script>
+   </body>
