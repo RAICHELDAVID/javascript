@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Question65</title>
+      <link rel="stylesheet" href="./style/style.css">
+   </head>
+   <body>
+      <div class="mainDiv">
+         <h3>REPLACE THE STRING</h3>
+         <form>
+            Enter a string:<input type="text" id="string" name="string" onkeypress="return (event.charCode > 64 && 
+               event.charCode < 91) || (event.charCode > 96 && event.charCode < 123||event.charCode==32)">
+            old string:<input type="text" id="oldString" name="string" onkeypress="return (event.charCode > 64 && 
+               event.charCode < 91) || (event.charCode > 96 && event.charCode < 123)">
+            new string:<input type="text" id="newString" name="string" onkeypress="return (event.charCode > 64 && 
+               event.charCode < 91) || (event.charCode > 96 && event.charCode < 123)">
+            <br><br>
+            <button type="button" onclick="replaceFunction()">REPLACE</button><br><br>
+            <p id='displayResult'></p>
+         </form>
+      </div>
+      <script src="./script/script.js"></script>
+   </body>
+</html>

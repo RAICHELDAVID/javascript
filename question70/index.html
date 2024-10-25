@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Question70</title>
+      <link rel="stylesheet" href="./style/style.css">
+   </head>
+   <body>
+      <div class="mainDiv">
+         <h3>LARGEST AND SMALLEST WORD IN A STRING</h3>
+         <form>
+            Enter a string:<input type="text" id="string" name="string" onkeypress="return (event.charCode > 64 && 
+               event.charCode < 91) || (event.charCode > 96 && event.charCode < 123)||(event.charCode==32)">
+            <br><br>
+            <button type="button" onclick="largestAndSmallestFunction()">PRINT</button><br><br>
+            largest word is <input id="largestWord"><br><br>
+            smallest word is <input id="smallestWord"><br>
+         </form>
+      </div>
+      <script src="./script/script.js"></script>
+   </body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Question42</title>
+      <link rel="stylesheet" href="style.css">
+   </head>
+   <body>
+      <div class="mainDiv">
+         <h3>Employee salary finding</h3>
+         <form>
+            Enter the basic salary in rps:
+            <input type="text" id="basicSalary" name="basicSalary" onkeypress="return (event.charCode >47 && 
+               event.charCode < 59)">
+         </form>
+         <div class="resultDiv">
+            <button type="button" onclick="grossSalaryFunction()">CALCULATE</button><br><br>
+            <div>
+               <p>GROSS SALARY =<input id="displayResult"></p>
+               <br>
+            </div>
+         </div>
+      </div>
+      <script src="script.js"></script>
+   </body>
